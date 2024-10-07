@@ -1,5 +1,6 @@
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
+import Technologies from "./Components/Technologies/Technologies";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <div className="container mx-auto px-8 relative z-10">
         <Navbar />
         <Hero/>
+        <Technologies/>
       </div>
     </div>
   );
