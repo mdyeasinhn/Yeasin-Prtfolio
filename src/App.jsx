@@ -1,3 +1,4 @@
+import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
 
       <div className="container mx-auto px-8 relative z-10">
         <Navbar />
+        <Hero/>
       </div>
     </div>
   );
