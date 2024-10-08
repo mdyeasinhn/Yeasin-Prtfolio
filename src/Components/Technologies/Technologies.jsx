@@ -1,6 +1,9 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb, SiTailwindcss, SiJavascript,SiExpress } from "react-icons/si";
+
+
+// motion
 const Technologies = () => {
     return (
         <div className="pb-24">

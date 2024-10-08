@@ -1,3 +1,4 @@
+import Contect from "./Components/Contect/Contect";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import Projects from "./Components/Projects/Projects";
@@ -19,6 +20,7 @@ const App = () => {
         <Hero/>
         <Technologies/>
         <Projects/>
+        <Contect/>
       </div>
     </div>
   );
