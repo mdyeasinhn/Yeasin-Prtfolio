@@ -1,12 +1,28 @@
 /* Google  font  */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root{
-  font-family :'Inter', sans-serif;
+:root {
+  font-family: "Inter", sans-serif;
   background: #000000;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  @apply bg-zinc-900 text-zinc-50
+}
+
+
+/* Navbar */
+/* .navbar{
+  @apply absolute top-full right-0 mt-2 min-w-40 p-2 bg-zinc-50/10 rounded-2xl ring-inset ring-1 ring-zinc-50/5 scale-90 isolate blur-sm opacity-0 invisible transition-[opacity, transform, filter ]
+} */
+/* .navbar.active {
+  @apply opacity-100 scale-100 blur-0 visible
+} */

@@ -18,7 +18,7 @@ const Projects = () => {
                             <h2 className='mb-2 font-semibold text-2xl '>{project.title}</h2>
                             <p className='mb-4 text-stone-400 '>{project.description}</p>
                             {project.technologies.map((tech, index) => (
-                                <span className='mt-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300  ' key={index}>
+                                <span className='mt-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300  ml-3' key={index}>
                                     {tech}
                                 </span>
                             ))}
