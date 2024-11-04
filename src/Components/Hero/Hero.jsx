@@ -28,7 +28,7 @@ const childVariant = {
 
 const Hero = () => {
     return (
-        <div className="pb-4  pt-10">
+        <div className="mt-20 pt-10">
             <div className="flex flex-wrap lg:flex-row-reverse">
                 {/* Profile image */}
                 <div className="w-full lg:w-1/2">

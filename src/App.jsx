@@ -20,12 +20,12 @@ const App = () => {
       </div>
 
       <div className="container mx-auto px-8 relative z-10">
-        <Navbar/>
-        {/* <Header /> */}
+        {/* <Navbar/> */}
+        <Header />
         <Hero/>
         <About/>
         <Skils/>
-        <Technologies/>
+        {/* <Technologies/> */}
         <Projects/>
         <Contect/>
       </div>
