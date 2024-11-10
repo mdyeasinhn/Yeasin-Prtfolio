@@ -56,7 +56,7 @@ const Skils = () => {
     ];
 
     return (
-        <section className='mt-8'>
+        <section id='skills' className='mt-8'>
             <div className="container">
                 <h2 className="text-3xl lg:text-4xl lg:leading-tight font-semibold">
                     Essential Tools I use

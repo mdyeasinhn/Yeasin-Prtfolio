@@ -1,5 +1,6 @@
 import profilePicture from '../../assets/img/mypicture.jpg';
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import resume from  '../../assets/Resume of Md Yeasin Arafat.pdf'
 
 
 // motion 
@@ -28,7 +29,7 @@ const childVariant = {
 
 const Hero = () => {
     return (
-        <div className="mt-20 pt-10">
+        <section id='#' className="mt-20 pt-10">
             <div className="flex flex-wrap lg:flex-row-reverse">
                 {/* Profile image */}
                 <div className="w-full lg:w-1/2">
@@ -60,13 +61,13 @@ const Hero = () => {
                         I am a passionate MERN stack developer with a strong foundation in MongoDB, Express.js, React, and Node.js. With a focus on building dynamic and responsive web applications, I strive to create user-friendly experiences that are both functional and visually appealing.
                         </motion.p>
 
-                        <motion.a variants={childVariant} href="https://drive.google.com/file/d/1qwZiwv5DV3-xWV7OSuXE1E2AW_sYzm3B" target='_blank' rel='noopener noreferrer' download className='bg-white rounded-2xl p-4 text-sm text-stone-800 mb-10'>Download Resume</motion.a>
+                        <motion.a variants={childVariant} href={resume} target='_blank' rel='noopener noreferrer' download='.Resume of Md Yeasin Arafat.pdf' className='bg-white rounded-2xl p-4 text-sm text-stone-800 mb-10'>Download Resume</motion.a>
                     </div>
 
                 </motion.div>
 
             </div>
-        </div>
+        </section>
     );
 };
 

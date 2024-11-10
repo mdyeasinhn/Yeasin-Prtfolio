@@ -34,7 +34,7 @@ const Contect = () => {
      
     ];
     return (
-        <section className="border border-red">
+        <section id='contact' className="">
 
             <div className="container lg:grid lg:grid-cols-2 lg:items-stretch ">
               <div className=" mb-12  lg:mb-0 lg:flex lg:flex-col mt-2">
@@ -44,7 +44,7 @@ const Contect = () => {
 
                     {
                         socialLinks.map(icon =>
-                            <a href={icon.href} className="w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg  transition-[background-color, color] hover:bg-zinc-50 hover:text-zinc-950 active-zinc50/80"> {icon.icon}</a>)
+                            <a href={icon.href} className="w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg  transition-[background-color, color] hover:bg-zinc-50 hover:text-zinc-950 active-zinc50/80 hover:scale-105 duration"> {icon.icon}</a>)
                     }</div>
               </div>
 
